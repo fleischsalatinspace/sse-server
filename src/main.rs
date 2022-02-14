@@ -97,5 +97,5 @@ async fn rocket() -> _ {
             signature_lifetime: 86400,
         })
         .attach(cors::CORS)
-        .mount("/", routes![submit, events, ping])
+        .mount("/sse-server/", routes![submit, events, ping])
 }

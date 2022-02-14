@@ -1,3 +1,7 @@
+# sse-server for TDF waitlist docker-compose
+
+This is fork of [The Ditanian Fleet sse-server](https://github.com/the-ditanian-fleet/sse-server) with changed baseurl to `/sse-server/` in `src/main.rs` in order to work with https://github.com/fleischsalatinspace/waitlist docker-compose project.  
+
 # sse-server
 
 Simple [Server-Sent Events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events) server that clients can connect to and applications can push to.
